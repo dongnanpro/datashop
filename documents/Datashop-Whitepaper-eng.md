@@ -237,11 +237,11 @@ T² * S = VP
 S stands for the number of locked up tokens and T is the lock up time. This leads to a high incentive to lock up your tokens as long as possible and therefore means more voting power requires living with your decisions for longer. Furthermore, the user can decide how to allocate his voting power, which means he could theoretically use the complete voting power on a single vote. 
 
 ### 6.3 Token Distribution
-Total Supply：100,000,000
-pre-sele 10%：10,000,000
-Liquidity mining 70%：70,000,000
-Community governance 10%：10,000,000
-DEV-team 10%:10,000,000
+ - Total Supply：100,000,000
+ - pre-sele 10%：10,000,000;
+ - Liquidity mining 70%：70,000,000;
+ - Community governance 10%：10,000,000;
+ - DEV-team 10%:10,000,000;
 
  ### 7 Conclusion
 This article introduces the first version of the shared storage data market based on the blockchain system, which attempts to achieve a high degree of distribution, free access and collectability of digital content. The current design is still very imperfect, welcome everyone to participate in improving this article.
