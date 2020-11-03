@@ -77,6 +77,7 @@ Since Datashop permanently stores data items based on network consensus, it only
 | **unique name**   | Vec\<u8\> | An optional unique name (max. length 50 characters) |
 | **license code**      | u16 | Numbers referencing the license of the data |
 | **timestamp**      | Time | The timestamp of the entry |
+
 All types of attributes only allow a limited size to keep each transaction information that needs to be chained to a minimum to prevent potential denial of service attacks.
 -DID points to metadata storage. For example, the following string represents a valid Datashop DID:
 
@@ -131,6 +132,7 @@ The metadata part is based on the "ERC721 Metadata JSON Schema", which contains 
 | **filetype**      | string | The file type|
 | **similarity digest**  | string | A context-sensitive hash |
 | **additional meta** | object | Additional attributes, like for example categories, which can be defined by marketplaces. |
+
 The similarity digest is a context-sensitive hash, which allows comparing two different hash values to obtain an estimate of the similarity between two documents. This is especially useful for finding nearly duplicates of search engine documents.
  The "Other Metadata" attribute allows additional data to be attached, which may be useful for different markets, for example. [14] In addition, metadata also stores the following information, which has been stored on the chain:
  - unique name
@@ -139,7 +141,7 @@ The similarity digest is a context-sensitive hash, which allows comparing two di
 Complete data can be used, for example, for decentralized searchability, verifiability, near-duplicate detection, and a combination of address-based and name-based storage. Each metadata entry must contain a unique file hash that points to the file stored on Filecoin.
 
 Since one of the main assumptions of this article is distribution and diversity, the captain's log provides location-based links as well as name-based addresses. This means that the content can be found by the hashed name and the current URL. See below.
-<img src="https://github.com/PACTCare/Stars-Network/blob/master/images/ipfs.png" width="550px" height="350px">
+<img src="https://github.com/PACTCare/Stars-Network/blob/master/images/ipfs.png" width="550px">
 
 
 User number 1 requests the file of user number 3 from the network through location-based 
